@@ -1,5 +1,9 @@
 # ML_basic
 
-[Linear Regression](https://github.com/liddalidd/ML_basic/tree/master/Linear_Regression)
+## ML by Hungyi Lee:
 
-[Logistic Regression](https://github.com/liddalidd/ML_basic/tree/master/Logistic_Regression)
+[Linear Regression](https://github.com/liddalidd/ML_basic/tree/master/ML%20by%20Hungyi%20Lee/Linear_Regression)
+
+## DL by Andrew Ng:
+
+[Logistic Regression](https://github.com/liddalidd/ML_basic/tree/master/DL%20by%20Andrew%20Ng/Neural%20Network%20and%20Deep%20Learning/2.Neural%20Networks%20Basics/Programming-Assignments)
