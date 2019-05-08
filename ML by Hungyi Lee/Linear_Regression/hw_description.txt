@@ -1,0 +1,11 @@
+Task Description
+本次作業的資料是從行政院環境環保署空氣品質監測網所下載的觀測資料。
+希望大家能在本作業實作 linear regression 預測出PM2.5的數值。
+
+
+Data Description
+本次作業使用豐原站的觀測記錄，分成train set跟test set，train set是豐原站每個月的前20天所有資料。test set則是從豐原站剩下的資料中取樣出來。
+train.csv: 每個月前20天的完整資料。
+test.csv : 從剩下的資料當中取樣出連續的10小時為一筆，前九小時的所有觀測數據當作feature，第十小時的PM2.5當作answer。一共取出240筆不重複的test data，請根據feauure預測這240筆的PM2.5。
+Data含有18項觀測數據 AMB_TEMP, CH4, CO, NHMC, NO, NO2, NOx, O3, PM10, PM2.5, RAINFALL, RH, SO2, THC, WD_HR, WIND_DIREC, WIND_SPEED, WS_HR。  
+ 

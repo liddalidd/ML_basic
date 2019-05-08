@@ -1,0 +1,20 @@
+Dataset and Task Introduction
+Task:
+Binary Classification
+Determine whether a person makes over 50K a year.
+Dataset:  ADULT
+Extraction was done by Barry Becker from the 1994 Census database. A set of reasonably clean records was extracted using the following conditions: ((AGE>16) && (AGI>100) && (AFNLWGT>1) && (HRSWK>0)).
+
+
+Data Attribute Information
+train.csv 、test.csv :
+age, workclass, fnlwgt, education, education num, marital-status, occupation
+relationship, race, sex, capital-gain, capital-loss, hours-per-week,
+native-country, make over 50K a year or not
+
+Provided Feature Format
+X_train, Y_train, X_test  :
+discrete features in train.csv => one-hot encoding in X_train (work_class,education...) 
+continuous features in train.csv => remain the same in X_train (age,capital_gain...) 
+X_train, X_test : each row contains one 106-dim feature represents a sample
+Y_train: label = 0 means  “<= 50K” 、 label = 1 means  “ >50K ”
